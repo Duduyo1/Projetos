@@ -1,0 +1,12 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #457890;
+}
+div #myDiv p {
+    color: blue;
+}

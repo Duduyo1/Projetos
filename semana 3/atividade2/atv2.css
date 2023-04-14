@@ -1,0 +1,24 @@
+main{
+     margin: 200px;
+     padding: 200px;
+}
+.primeiraBox{
+    background: red;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.segundaBox{
+    background: green;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    text-align: center;
+}
+.terceiraBox{
+    background: blue;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    text-align: center;
+}

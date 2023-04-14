@@ -1,0 +1,12 @@
+h1,p{
+    color: red;
+}
+.colorText{ 
+ color: blue;
+}
+#para1{
+    color: green;
+}
+p{
+    font-size: 20px;
+}

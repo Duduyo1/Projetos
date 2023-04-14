@@ -1,0 +1,27 @@
+.flexBox{
+    display: flex;
+    width: 500px;
+    height: 700px;
+    border: 1px solid;
+
+}
+.boxModel{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.boxModel:active{
+    background-color: blue;
+}
+/* pseudo classes */
+/*.boxModel:hover{
+    background-color:green
+} */
+/* .boxModel:active{
+    background-color:red }*/
+/* .boxModel:focus{
+background-color:blue}  */

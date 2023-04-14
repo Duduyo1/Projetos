@@ -1,0 +1,7 @@
+div{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius: 100px;
+}

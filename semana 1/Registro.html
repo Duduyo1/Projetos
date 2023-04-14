@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../curso/style.css">
+</head>
+<body>
+        <h1>Criar Registro</h1>
+        <h2>criar conta</h2>
+    <form action="">
+        <label for="Primeiro Nome">Primeiro Nome:</label>
+        <input type="text" placeholder="Primeiro Nome" class="primeiro" required><br>
+        <label for="Sobrenome"> Sobrenome:</label>
+        <input type="text" placeholder="Sobrenome" required><br>
+        <label for="Sexo"> Sexo:</label>
+        <input type="radio" id="Feminino" name="sexo" value="Masculino">
+        <label for="masculino"> Masculino</label>
+        <input type="radio" id="Feminino" name="sexo" value="Feminino">
+        <label for="feminino"> Feminino</label> <br>
+        <label for="CPF">CPF:</label>
+        <input type="number" placeholder="123.456.789-10" required> <br>
+        <label for="tel">Telefone:</label>
+        <input type="number" placeholder="31 98765-4321" required> <br>
+        <label for="Data de Nascimento"> Data de Nascimento:</label>
+        <input type="date" required><br>
+    </form>
+    <h2>Endereço</h2>
+    <form action="">
+        <label for="CEP">CEP</label>
+        <input type="number" placeholder="00000-000" required><br>
+        <label for="Rua">Rua:</label>
+        <input type="text" placeholder="Rua" required><br>
+        <label for="número">Número:</label>
+        <input type="number"><br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" placeholder="Bairro"><br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" placeholder="Cidade"required> <br>
+        <label for="estdo"> Estado: </label>
+        <select id="estado" name="estado" required>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select><br>
+        <button type="submit">Confirmar</button>
+    
+    </form>
+</body>
+</html>
